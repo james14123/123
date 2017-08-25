@@ -1,0 +1,47 @@
+Exporter version: 5.3-beta, Blender version: 2.78 (sub 0)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used:
+		selected layers only:  false
+		flat shading entire scene:  false
+		inline textures:  false
+		texture directory:  D:\WIN7_USER\Desktop\babay\
+	Python World class constructor completed
+	WARNING: No active camera has been assigned, or is not in a currently selected Blender layer
+	processing begun of mesh:  md
+		processing begun of Standard material:  MD4_woman_shoes06.003
+			Diffuse texture found "Kd"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  MD4woman01_hair.001
+			Diffuse texture found "Kd.007"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  MD4woman01_face.001
+			Diffuse texture found "Kd.006"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  MD4woman01_arm_leg.001
+			Diffuse texture found "Kd.004"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  MD4woman01_body.001
+			Diffuse texture found "Kd.005"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  MD4woman01_ReyeM.001
+			Diffuse texture found "Kd.003"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  MD4_woman_shoes06.002
+			Diffuse texture found "Kd.001"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  MD4woman01_LeyeM.001
+			Diffuse texture found "Kd.002"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  TOB_md.Multimaterial#0
+		num positions      :  27345
+		num normals        :  27345
+		num uvs            :  54690
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  146415
+		WARNING: # of 0 area faces found:  4
+	processing begun of light (SUN):  Sun
+========= Writing of files started =========
+========= Writing of files completed =========
+========= end of processing =========
+elapsed time:  0 min, 4.475 secs
