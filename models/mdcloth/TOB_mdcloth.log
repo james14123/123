@@ -4,20 +4,76 @@ Exporter version: 5.3-beta, Blender version: 2.78 (sub 0)
 		selected layers only:  false
 		flat shading entire scene:  false
 		inline textures:  false
-		texture directory:  D:\WIN7_USER\Desktop\babay\New Folder\
+		texture directory:  D:\WIN7_USER\Desktop\TryOn\123\models\mdcloth\
 	Python World class constructor completed
-	WARNING: No active camera has been assigned, or is not in a currently selected Blender layer
-	processing begun of mesh:  mdcloth
-		processing begun of Standard material:  Material8751
-			Diffuse texture found "blue silk.jpg.001"
-				Image texture found, type:  diffuseTexture, mapped using: "UV_Map"
-		num positions      :  16562
-		num normals        :  16562
-		num uvs            :  33124
+	processing begun of mesh:  cloth1weight129
+		processing begun of Standard material:  Default_Fabric_FRONT_39164.010
+			Ambient texture found "Ka.010"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.019"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  14432
+		num normals        :  14432
+		num uvs            :  28864
 		num uvs2           :  0
 		num colors         :  0
-		num indices        :  88188
+		num indices        :  77208
+		WARNING: # of 0 area faces found:  820
+	processing begun of mesh:  cloth1weight107
+		processing begun of Standard material:  Default_Fabric_FRONT_39164.009
+			Ambient texture found "Ka.009"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.018"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  14432
+		num normals        :  14432
+		num uvs            :  28864
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  77208
+		WARNING: # of 0 area faces found:  822
+	processing begun of mesh:  cloth1weight87
+		processing begun of Standard material:  Default_Fabric_FRONT_39164.008
+			Ambient texture found "Ka.008"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.017"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  14432
+		num normals        :  14432
+		num uvs            :  28864
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  77208
+		WARNING: # of 0 area faces found:  844
+	processing begun of mesh:  cloth1weight67
+		processing begun of Standard material:  Default_Fabric_FRONT_39164.007
+			Ambient texture found "Ka.007"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.016"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  14432
+		num normals        :  14432
+		num uvs            :  28864
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  77208
+		WARNING: # of 0 area faces found:  804
+	processing begun of mesh:  cloth1weight47
+		processing begun of Standard material:  Default_Fabric_FRONT_39164.006
+			Ambient texture found "Ka.006"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.015"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  14432
+		num normals        :  14432
+		num uvs            :  28864
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  77208
+		WARNING: # of 0 area faces found:  818
+	processing begun of camera (UniversalCamera):  Camera
+	processing begun of light (POINT):  Lamp
 ========= Writing of files started =========
 ========= Writing of files completed =========
 ========= end of processing =========
-elapsed time:  0 min, 3.5435 secs
+elapsed time:  0 min, 17.0705 secs
