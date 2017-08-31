@@ -162,7 +162,7 @@
 <div id="buttonbar">
 <font face="微軟正黑體">     
 <label id="label1">Height</label>
-<input id="slide1" type="range" min="0" max="0.8" step="0.2"  value="0"
+<input id="slide1" type="range" min="0" max="0.8" step="0.25"  value="0"
        onchange="updateslidervertexdeformation(this.value,slide2.value,slide3.value,slide4.value,slide5.value,slide6.value,slide7.value),clothsizeupdate()" >
 <label id="label2">Weight</label>
 <input id="slide2" type="range" min="0" max="0.8" step="0.2"  value="0"
@@ -530,7 +530,7 @@
             
             var cloth_mesh = new TOB_mdcloth.MeshFactory(scene); // materialsRootDir optional
             var weightsilder = document.getElementById("slide2").value*100+47;
-            var heightsilder = (document.getElementById("slide1").value*-1+0.8)*85+138;
+            var heightsilder = (document.getElementById("slide1").value*-1+1)*68+138;
             
             var mesh1 = cloth_mesh.instance("cloth1weight" + weightsilder + "height" + heightsilder ); // cloneSkeleton optional
             mesh1.material= bumpMaterial;     
