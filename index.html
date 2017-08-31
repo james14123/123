@@ -530,7 +530,7 @@
             
             var cloth_mesh = new TOB_mdcloth.MeshFactory(scene); // materialsRootDir optional
             var weightsilder = document.getElementById("slide2").value*100+47;
-            var heightsilder = (document.getElementById("slide1").value*-1+0.6)*85+138;
+            var heightsilder = (document.getElementById("slide1").value*-1+0.8)*85+138;
             
             var mesh1 = cloth_mesh.instance("cloth1weight" + weightsilder + "height" + heightsilder ); // cloneSkeleton optional
             mesh1.material= bumpMaterial;     
