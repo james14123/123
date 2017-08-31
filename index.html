@@ -162,7 +162,7 @@
 <div id="buttonbar">
 <font face="微軟正黑體">     
 <label id="label1">Height</label>
-<input id="slide1" type="range" min="0" max="1" step="0.1"  value="0"
+<input id="slide1" type="range" min="0" max="0.8" step="0.2"  value="0"
        onchange="updateslidervertexdeformation(this.value,slide2.value,slide3.value,slide4.value,slide5.value,slide6.value,slide7.value),clothsizeupdate()" >
 <label id="label2">Weight</label>
 <input id="slide2" type="range" min="0" max="0.8" step="0.2"  value="0"
@@ -267,9 +267,9 @@
         var light4 = new BABYLON.HemisphericLight("Omni4", new BABYLON.Vector3( 1.8, -1.5, 2.0), scene);
 
         scene.beforeCameraRender = function () {
-            light1.intensity = 0.8;
-            light2.intensity = 1;   
-            light3.intensity = 0.5;
+            light1.intensity = 0.6;
+            light2.intensity = 0.5;   
+            light3.intensity = 0.8;
             light4.intensity = 0.5;    
             
             
@@ -287,9 +287,12 @@
 
         
        
-        
-        
-        var texture_from_file = new BABYLON.Texture("blue silk.jpg", scene);
+        var bumpMaterial = new BABYLON.PBRMaterial("blue silk.jpg", scene);
+        bumpMaterial.albedoTexture  = new BABYLON.Texture("blue silk.jpg", scene);
+        bumpMaterial.bumpTexture = new BABYLON.Texture("normalMap.jpg", scene);
+        //bumpMaterial.baseColor = new BABYLON.Color3(1.000, 0.766, 0.336);
+        bumpMaterial.metallic = 0.2;
+        bumpMaterial.roughness = 0.3;
         //---------------------------------
         // cloth animation initial setting
         //---------------------------------
@@ -513,26 +516,27 @@
         }
     
     function clothsizeupdate() {
-          if(document.getElementById("slide2").value == 0){
-             if (scene.getMeshByName("cloth1weight67")){
-            scene.getMeshByName("cloth1weight67").dispose();
-            }
-             if (scene.getMeshByName("cloth1weight87")){
-            scene.getMeshByName("cloth1weight87").dispose();
-            }
-               if (scene.getMeshByName("cloth1weight129")){
-            scene.getMeshByName("cloth1weight129").dispose();
-            }
-              if (scene.getMeshByName("cloth1weight107")){
-            scene.getMeshByName("cloth1weight107").dispose();
-            }
+            
+             for (i = 47; i<=127; i=i+20){
+                 for (j = 138; j<=206; j=j+17){
+                     if (scene.getMeshByName("cloth1weight" + i + "height" + j )){
+                 scene.getMeshByName("cloth1weight" + i + "height" + j ).dispose();
+                 console.log("cloth1weight" + i + "height" + j );
+                     }
+              
+                 }
+             }
+            
             
             var cloth_mesh = new TOB_mdcloth.MeshFactory(scene); // materialsRootDir optional
-      
-            var mesh1 = cloth_mesh.instance("cloth1weight47"); // cloneSkeleton optional
-            mesh1.material.diffuseTexture = texture_from_file;     
-            console.log("cloth1weight47");
-        }
+            var weightsilder = document.getElementById("slide2").value*100+47;
+            var heightsilder = (document.getElementById("slide1").value*-1+0.6)*85+138;
+            
+            var mesh1 = cloth_mesh.instance("cloth1weight" + weightsilder + "height" + heightsilder ); // cloneSkeleton optional
+            mesh1.material= bumpMaterial;     
+        
+            
+        /*
         if(document.getElementById("slide2").value == 0.2){
              if (scene.getMeshByName("cloth1weight47")){
             scene.getMeshByName("cloth1weight47").dispose();
@@ -549,7 +553,8 @@
             var cloth_mesh = new TOB_mdcloth.MeshFactory(scene); // materialsRootDir optional
       
             var mesh1 = cloth_mesh.instance("cloth1weight67"); // cloneSkeleton optional
-            mesh1.material.diffuseTexture = texture_from_file;     
+            
+            mesh1.material = bumpMaterial;    
             console.log("cloth1weight67");
         }
         if(document.getElementById("slide2").value == 0.4){
@@ -569,7 +574,9 @@
             var cloth_mesh = new TOB_mdcloth.MeshFactory(scene); // materialsRootDir optional
       
             var mesh1 = cloth_mesh.instance("cloth1weight87"); // cloneSkeleton optional
-            mesh1.material.diffuseTexture = texture_from_file;     
+            
+            mesh1.material = bumpMaterial;   
+            
             console.log("cloth1weight87");
         }
          if(document.getElementById("slide2").value == 0.6){
@@ -588,7 +595,8 @@
             var cloth_mesh = new TOB_mdcloth.MeshFactory(scene); // materialsRootDir optional
       
             var mesh1 = cloth_mesh.instance("cloth1weight107"); // cloneSkeleton optional
-            mesh1.material.diffuseTexture = texture_from_file;     
+            
+            mesh1.material = bumpMaterial;      
             console.log("cloth1weight107");
         }
          if(document.getElementById("slide2").value == 0.8){
@@ -607,11 +615,12 @@
             var cloth_mesh = new TOB_mdcloth.MeshFactory(scene); // materialsRootDir optional
       
             var mesh1 = cloth_mesh.instance("cloth1weight129"); // cloneSkeleton optional
-            mesh1.material.diffuseTexture = texture_from_file;     
+            
+            mesh1.material = bumpMaterial;  
             console.log("cloth1weight129");
-        }
+        } */
     }
-
+   
 
 </script>
 </body>

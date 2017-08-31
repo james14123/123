@@ -1,56 +1,19 @@
 Exporter version: 5.3-beta, Blender version: 2.78 (sub 0)
 ========= Conversion from Blender to Babylon.js =========
 	Scene settings used:
-		selected layers only:  false
+		selected layers only:  true
 		flat shading entire scene:  false
 		inline textures:  false
-		texture directory:  D:\WIN7_USER\Desktop\TryOn\123\models\mdcloth\
+		texture directory:  D:\Win7_USER\Desktop\CLO3D_avatar\avatarwebv3-2\
 	Python World class constructor completed
-	processing begun of mesh:  cloth1weight129
-		processing begun of Standard material:  Default_Fabric_FRONT_39164.010
-			Ambient texture found "Ka.010"
+	processing begun of mesh:  cloth1weight67height206
+		processing begun of Standard material:  Default_Fabric_FRONT_39164.001
+			Ambient texture found "Ka.001"
 				Image texture found, type:  ambientTexture, mapped using: "UVMap"
-			Diffuse texture found "Kd.019"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\te\\clothtshirt\\blue silk.jpg'
+			Diffuse texture found "Kd.012"
 				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
-		num positions      :  14432
-		num normals        :  14432
-		num uvs            :  28864
-		num uvs2           :  0
-		num colors         :  0
-		num indices        :  77208
-		WARNING: # of 0 area faces found:  820
-	processing begun of mesh:  cloth1weight107
-		processing begun of Standard material:  Default_Fabric_FRONT_39164.009
-			Ambient texture found "Ka.009"
-				Image texture found, type:  ambientTexture, mapped using: "UVMap"
-			Diffuse texture found "Kd.018"
-				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
-		num positions      :  14432
-		num normals        :  14432
-		num uvs            :  28864
-		num uvs2           :  0
-		num colors         :  0
-		num indices        :  77208
-		WARNING: # of 0 area faces found:  822
-	processing begun of mesh:  cloth1weight87
-		processing begun of Standard material:  Default_Fabric_FRONT_39164.008
-			Ambient texture found "Ka.008"
-				Image texture found, type:  ambientTexture, mapped using: "UVMap"
-			Diffuse texture found "Kd.017"
-				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
-		num positions      :  14432
-		num normals        :  14432
-		num uvs            :  28864
-		num uvs2           :  0
-		num colors         :  0
-		num indices        :  77208
-		WARNING: # of 0 area faces found:  844
-	processing begun of mesh:  cloth1weight67
-		processing begun of Standard material:  Default_Fabric_FRONT_39164.007
-			Ambient texture found "Ka.007"
-				Image texture found, type:  ambientTexture, mapped using: "UVMap"
-			Diffuse texture found "Kd.016"
-				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\te\\clothtshirt\\blue silk.jpg'
 		num positions      :  14432
 		num normals        :  14432
 		num uvs            :  28864
@@ -58,12 +21,349 @@ Exporter version: 5.3-beta, Blender version: 2.78 (sub 0)
 		num colors         :  0
 		num indices        :  77208
 		WARNING: # of 0 area faces found:  804
-	processing begun of mesh:  cloth1weight47
+	processing begun of mesh:  cloth1weight67height172
+		processing begun of Standard material:  Default_Fabric_FRONT_39164
+			Ambient texture found "Ka"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\te\\clothtshirt\\blue silk.jpg'
+			Diffuse texture found "Kd.011"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\te\\clothtshirt\\blue silk.jpg'
+		num positions      :  14432
+		num normals        :  14432
+		num uvs            :  28864
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  77208
+		WARNING: # of 0 area faces found:  802
+	processing begun of mesh:  cloth1weight127height189
+		processing begun of Standard material:  Default_Fabric_FRONT_39164.030
+			Diffuse texture found "Kd.041"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\te\\clothtshirt\\blue silk.jpg'
+		num positions      :  14432
+		num normals        :  14432
+		num uvs            :  28864
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  77208
+		WARNING: # of 0 area faces found:  816
+	processing begun of mesh:  cloth1weight127height172
+		processing begun of Standard material:  Default_Fabric_FRONT_39164.029
+			Ambient texture found "Ka.031"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\te\\clothtshirt\\blue silk.jpg'
+			Diffuse texture found "Kd.040"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\te\\clothtshirt\\blue silk.jpg'
+		num positions      :  14432
+		num normals        :  14432
+		num uvs            :  28864
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  77208
+		WARNING: # of 0 area faces found:  806
+	processing begun of mesh:  cloth1weight127height206
+		processing begun of baked material:  cloth1weight127height206
+			Internal baking texture, type: TEXTURE, mapped using: UVMap
+			Internal baking texture, type: AO, mapped using: UVMap
+		num positions      :  14432
+		num normals        :  14432
+		num uvs            :  28864
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  77208
+		WARNING: # of 0 area faces found:  820
+	processing begun of mesh:  cloth1weight127height155
+		processing begun of Standard material:  Default_Fabric_FRONT_39164.027
+			Ambient texture found "Ka.028"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\te\\clothtshirt\\blue silk.jpg'
+			Diffuse texture found "Kd.037"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\te\\clothtshirt\\blue silk.jpg'
+		num positions      :  14432
+		num normals        :  14432
+		num uvs            :  28864
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  77208
+		WARNING: # of 0 area faces found:  808
+	processing begun of mesh:  cloth1weight127height138
+		processing begun of Standard material:  Default_Fabric_FRONT_39164.026
+			Ambient texture found "Ka.027"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\te\\clothtshirt\\blue silk.jpg'
+			Diffuse texture found "Kd.036"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\te\\clothtshirt\\blue silk.jpg'
+		num positions      :  14432
+		num normals        :  14432
+		num uvs            :  28864
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  77208
+		WARNING: # of 0 area faces found:  816
+	processing begun of mesh:  cloth1weight107height189
+		processing begun of Standard material:  Default_Fabric_FRONT_39164.025
+			Ambient texture found "Ka.026"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\te\\clothtshirt\\blue silk.jpg'
+			Diffuse texture found "Kd.035"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\te\\clothtshirt\\blue silk.jpg'
+		num positions      :  14432
+		num normals        :  14432
+		num uvs            :  28864
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  77208
+		WARNING: # of 0 area faces found:  812
+	processing begun of mesh:  cloth1weight107height172
+		processing begun of Standard material:  Default_Fabric_FRONT_39164.024
+			Ambient texture found "Ka.025"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\te\\clothtshirt\\blue silk.jpg'
+			Diffuse texture found "Kd.034"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\te\\clothtshirt\\blue silk.jpg'
+		num positions      :  14432
+		num normals        :  14432
+		num uvs            :  28864
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  77208
+		WARNING: # of 0 area faces found:  814
+	processing begun of mesh:  cloth1weight107height155
+		processing begun of Standard material:  Default_Fabric_FRONT_39164.023
+			Ambient texture found "Ka.024"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\te\\clothtshirt\\blue silk.jpg'
+			Diffuse texture found "Kd.033"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\te\\clothtshirt\\blue silk.jpg'
+		num positions      :  14432
+		num normals        :  14432
+		num uvs            :  28864
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  77208
+		WARNING: # of 0 area faces found:  806
+	processing begun of mesh:  cloth1weight107height138
+		processing begun of Standard material:  Default_Fabric_FRONT_39164.022
+			Ambient texture found "Ka.023"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\te\\clothtshirt\\blue silk.jpg'
+			Diffuse texture found "Kd.032"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\te\\clothtshirt\\blue silk.jpg'
+		num positions      :  14432
+		num normals        :  14432
+		num uvs            :  28864
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  77208
+		WARNING: # of 0 area faces found:  804
+	processing begun of mesh:  cloth1weight87height172
+		processing begun of Standard material:  Default_Fabric_FRONT_39164.021
+			Ambient texture found "Ka.022"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\te\\clothtshirt\\blue silk.jpg'
+			Diffuse texture found "Kd.031"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\te\\clothtshirt\\blue silk.jpg'
+		num positions      :  14432
+		num normals        :  14432
+		num uvs            :  28864
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  77208
+		WARNING: # of 0 area faces found:  806
+	processing begun of mesh:  cloth1weight87height189
+		processing begun of Standard material:  Default_Fabric_FRONT_39164.020
+			Ambient texture found "Ka.021"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\te\\clothtshirt\\blue silk.jpg'
+			Diffuse texture found "Kd.030"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\te\\clothtshirt\\blue silk.jpg'
+		num positions      :  14432
+		num normals        :  14432
+		num uvs            :  28864
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  77208
+		WARNING: # of 0 area faces found:  804
+	processing begun of mesh:  cloth1weight87height155
+		processing begun of Standard material:  Default_Fabric_FRONT_39164.019
+			Ambient texture found "Ka.020"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\te\\clothtshirt\\blue silk.jpg'
+			Diffuse texture found "Kd.029"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\te\\clothtshirt\\blue silk.jpg'
+		num positions      :  14432
+		num normals        :  14432
+		num uvs            :  28864
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  77208
+		WARNING: # of 0 area faces found:  810
+	processing begun of mesh:  cloth1weight87height138
+		processing begun of Standard material:  Default_Fabric_FRONT_39164.018
+			Ambient texture found "Ka.019"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\te\\clothtshirt\\blue silk.jpg'
+			Diffuse texture found "Kd.028"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\te\\clothtshirt\\blue silk.jpg'
+		num positions      :  14432
+		num normals        :  14432
+		num uvs            :  28864
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  77208
+		WARNING: # of 0 area faces found:  808
+	processing begun of mesh:  cloth1weight67height189
+		processing begun of Standard material:  Default_Fabric_FRONT_39164.017
+			Ambient texture found "Ka.018"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\te\\clothtshirt\\blue silk.jpg'
+			Diffuse texture found "Kd.027"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\te\\clothtshirt\\blue silk.jpg'
+		num positions      :  14432
+		num normals        :  14432
+		num uvs            :  28864
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  77208
+		WARNING: # of 0 area faces found:  808
+	processing begun of mesh:  cloth1weight67height155
+		processing begun of Standard material:  Default_Fabric_FRONT_39164.015
+			Ambient texture found "Ka.016"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\te\\clothtshirt\\blue silk.jpg'
+			Diffuse texture found "Kd.025"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\te\\clothtshirt\\blue silk.jpg'
+		num positions      :  14432
+		num normals        :  14432
+		num uvs            :  28864
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  77208
+		WARNING: # of 0 area faces found:  802
+	processing begun of mesh:  cloth1weight67height138
+		processing begun of Standard material:  Default_Fabric_FRONT_39164.014
+			Ambient texture found "Ka.015"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\te\\clothtshirt\\blue silk.jpg'
+			Diffuse texture found "Kd.024"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\te\\clothtshirt\\blue silk.jpg'
+		num positions      :  14432
+		num normals        :  14432
+		num uvs            :  28864
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  77208
+		WARNING: # of 0 area faces found:  816
+	processing begun of mesh:  cloth1weight47height189
+		processing begun of Standard material:  Default_Fabric_FRONT_39164.013
+			Ambient texture found "Ka.014"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\te\\clothtshirt\\blue silk.jpg'
+			Diffuse texture found "Kd.023"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\te\\clothtshirt\\blue silk.jpg'
+		num positions      :  14432
+		num normals        :  14432
+		num uvs            :  28864
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  77208
+		WARNING: # of 0 area faces found:  806
+	processing begun of mesh:  cloth1weight47height172
+		processing begun of Standard material:  Default_Fabric_FRONT_39164.012
+			Ambient texture found "Ka.013"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\te\\clothtshirt\\blue silk.jpg'
+			Diffuse texture found "Kd.022"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\te\\clothtshirt\\blue silk.jpg'
+		num positions      :  14432
+		num normals        :  14432
+		num uvs            :  28864
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  77208
+		WARNING: # of 0 area faces found:  808
+	processing begun of mesh:  cloth1weight47height155
+		processing begun of Standard material:  Default_Fabric_FRONT_39164.011
+			Diffuse texture found "Kd.021"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\te\\clothtshirt\\blue silk.jpg'
+		num positions      :  14432
+		num normals        :  14432
+		num uvs            :  28864
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  77208
+		WARNING: # of 0 area faces found:  806
+	processing begun of mesh:  cloth1weight47height138
+		processing begun of Standard material:  Default_Fabric_FRONT_39164.003
+			Ambient texture found "Ka.011"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\te\\clothtshirt\\blue silk.jpg'
+			Diffuse texture found "Kd.020"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\te\\clothtshirt\\blue silk.jpg'
+		num positions      :  14432
+		num normals        :  14432
+		num uvs            :  28864
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  77208
+		WARNING: # of 0 area faces found:  808
+	processing begun of mesh:  cloth1weight107height206
+		processing begun of Standard material:  Default_Fabric_FRONT_39164.009
+			Ambient texture found "Ka.009"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\clothtshirt\\clothtshirt\\blue silk.jpg'
+			Diffuse texture found "Kd.018"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\clothtshirt\\clothtshirt\\blue silk.jpg'
+		num positions      :  14432
+		num normals        :  14432
+		num uvs            :  28864
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  77208
+		WARNING: # of 0 area faces found:  822
+	processing begun of mesh:  cloth1weight87height206
+		processing begun of Standard material:  Default_Fabric_FRONT_39164.008
+			Ambient texture found "Ka.008"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\clothtshirt\\clothtshirt\\blue silk.jpg'
+			Diffuse texture found "Kd.017"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\clothtshirt\\clothtshirt\\blue silk.jpg'
+		num positions      :  14432
+		num normals        :  14432
+		num uvs            :  28864
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  77208
+		WARNING: # of 0 area faces found:  844
+	processing begun of mesh:  cloth1weight47height206
 		processing begun of Standard material:  Default_Fabric_FRONT_39164.006
 			Ambient texture found "Ka.006"
 				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\clothtshirt\\clothtshirt\\blue silk.jpg'
 			Diffuse texture found "Kd.015"
 				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\Win7_USER\\Desktop\\CLO3D_avatar\\avatarwebv3-2\\clothtshirt\\clothtshirt\\blue silk.jpg'
 		num positions      :  14432
 		num normals        :  14432
 		num uvs            :  28864
@@ -76,4 +376,4 @@ Exporter version: 5.3-beta, Blender version: 2.78 (sub 0)
 ========= Writing of files started =========
 ========= Writing of files completed =========
 ========= end of processing =========
-elapsed time:  0 min, 17.0705 secs
+elapsed time:  1 min, 56.807 secs
