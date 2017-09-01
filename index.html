@@ -162,7 +162,7 @@
 <div id="buttonbar">
 <font face="微軟正黑體">     
 <label id="label1">Height</label>
-<input id="slide1" type="range" min="0" max="0.8" step="0.25"  value="0"
+<input id="slide1" type="range" min="0" max="1" step="0.25"  value="0"
        onchange="updateslidervertexdeformation(this.value,slide2.value,slide3.value,slide4.value,slide5.value,slide6.value,slide7.value),clothsizeupdate()" >
 <label id="label2">Weight</label>
 <input id="slide2" type="range" min="0" max="0.8" step="0.2"  value="0"
@@ -276,17 +276,36 @@
         };
 
         /************************* Load Human *************************************/
+        var anim = new BABYLON.Animation("fade", "visibility", 60,  BABYLON.Animation.ANIMATIONTYPE_FLOAT, BABYLON.Animation.ANIMATIONLOOPMODE_CONSTANT);
+	    var keys = [];
        
+         keys.push({
+	              frame: 0,
+	              value: 5.0
+            });
+	        keys.push({
+	              frame: 60,
+	              value: 0.0
+            });
+	        anim.setKeys(keys);
+        
+        
+        
         var cloth = new md.MeshFactory(scene); // materialsRootDir optional
         var mdbody = cloth.instance("bodyShape_skin_Shape"); // cloneSkeleton optional
         var floor = cloth.instance("Plane"); // cloneSkeleton optional
         
+        
+        
+	    
+        mdbody.animations.push(anim);
+	    scene.beginAnimation(mdbody, 60, 0, true, 1);
         /************************* Load Cloth *************************************/
         
         var record_last_mesh_num = scene.meshes.length;
 
         
-       
+        
         var bumpMaterial = new BABYLON.PBRMaterial("blue silk.jpg", scene);
         bumpMaterial.albedoTexture  = new BABYLON.Texture("blue silk.jpg", scene);
         bumpMaterial.bumpTexture = new BABYLON.Texture("normalMap.jpg", scene);
@@ -301,137 +320,15 @@
         var direction = 1;
         var delay_cnt = 0;
         
-  
+        
         
         clothsizeupdate();
         
      
-                
-        /************************* Load HQ Mesh *************************************/
-        // HQ mesh start
-/*        
-        var hqbody_mesh = new TOB_BJSHQ.MeshFactory(scene); // materialsRootDir optional
-        var hqmesh_head = hqbody_mesh.instance("body"); // cloneSkeleton optional
-        
-        var face_texture_from_file = new BABYLON.Texture("body_diff_01.jpg", scene);
-        
-        hqmesh_head.position = new BABYLON.Vector3(-0.6, -1.5, -2.0);
-        hqmesh_head.material.diffuseTexture = face_texture_from_file;              
-        hqmesh_head.alwaysSelectAsActiveMesh = true;
-        hqmesh_head.material.specularColor = BABYLON.Color3.Black();
-        
-        var face_texture_from_file = new BABYLON.Texture("body_spec_01.jpg", scene);
-        
-        hqmesh_head.material.specularTexture = face_texture_from_file;     
-        hqmesh_head.material.useGlossinessFromSpecularMapAlpha = true;
-        
-        
-        var hqmesh_eyelash = hqbody_mesh.instance("eyelash"); // cloneSkeleton optional        
-        var face_texture_from_file = new BABYLON.Texture("eyelash_alpha_01.jpg", scene);
-        
-        hqmesh_eyelash.position = new BABYLON.Vector3(-0.6, -1.5, -2.0);
-        hqmesh_eyelash.material.diffuseTexture = face_texture_from_file;              
-        hqmesh_eyelash.alwaysSelectAsActiveMesh = true;
-        hqmesh_eyelash.material.specularColor = BABYLON.Color3.Black();
-        hqmesh_eyelash.material.hasVertexAlpha = true;
-        
-        var hqmesh_eyes1 = hqbody_mesh.instance("eyes_inner"); // cloneSkeleton optional  
-        var hqmesh_eyes2 = hqbody_mesh.instance("eyes_outer"); // cloneSkeleton optional 
-        var face_texture_from_file = new BABYLON.Texture("eyes_diff_02.jpg", scene);
-        
-        hqmesh_eyes1.position = new BABYLON.Vector3(-0.6, -1.5, -2.0);
-        hqmesh_eyes1.material.diffuseTexture = face_texture_from_file;              
-        hqmesh_eyes1.alwaysSelectAsActiveMesh = true;
-        hqmesh_eyes1.material.specularColor = BABYLON.Color3.Black();
-        hqmesh_eyes1.material.hasVertexAlpha = true;
-        hqmesh_eyes2.position = new BABYLON.Vector3(-0.6, -1.5, -2.0);
-        hqmesh_eyes2.material.diffuseTexture = face_texture_from_file;              
-        hqmesh_eyes2.alwaysSelectAsActiveMesh = true;
-        hqmesh_eyes2.material.specularColor = BABYLON.Color3.Black();
-        hqmesh_eyes2.material.hasVertexAlpha = true;
-        
-*/
-
-        
-        //backup pbr
-        /*
-        var pbr = new BABYLON.PBRMaterial("pbr", scene);
-        mesh_head.material = pbr;
-        pbr.albedoTexture = new BABYLON.Texture("songhuichow_material.jpg", scene);
-        pbr.reflectivityColor = new BABYLON.Color3(1.0, 0.766, 0.336);
-
-        pbr.useMicroSurfaceFromReflectivityMapAlpha = true;
-    
-        
-        mesh_head.position = new BABYLON.Vector3(-0.2, -1.5, -2.0);
-        //mesh_head.material.diffuseTexture = face_texture_from_file;              
-        mesh_head.alwaysSelectAsActiveMesh = true;
-        //mesh_head.material.specularColor = BABYLON.Color3.Black();
-        */
-        
-        /************************* Load hair *************************************/
-        
-        
-        //scene.createOrUpdateSelectionOctree();
-        
-
-        
-   
-        /*
-        BABYLON.SceneLoader.Append("", "TS_bodylab.glb", scene, function (scene) {
-        }, null, function (scene) {
-        alert("error");
-        });
-        */
-        // meshesNames can be set to "null" to load all meshes and skeletons
-        //BABYLON.SceneLoader.Load( "./", "owl_good.glb", engine, function (scene) { 
-        // do somethings with the meshes, particleSystems (not handled in glTF files) and skeletons
-        //});
-        
-        
-        /*
-        console.log(scene.meshes);
-        
-        
-        var glb_mesh = scene.meshes[7];
-                
-        console.log(glb_mesh);
-        
-        glb_mesh.position = new BABYLON.Vector3(0.8, 0.0, -2.0);
-        glb_mesh.material.diffuseTexture = face_texture_from_file;              
-        glb_mesh.alwaysSelectAsActiveMesh = true;
-        glb_mesh.material.specularColor = BABYLON.Color3.Black();
-        
-                console.log ( BABYLON.SceneLoader);
-        */
-        /*
-        for (var i = 0; i < (scene.meshes.length - record_last_mesh_num); i++){
-            //if (scene.meshes[i] instanceof QI.Mesh){ //if having shape keys
-                var mesh_ptr = i+record_last_mesh_num;
-                //pbr.diffuseTexture = texture_from_file;
-                scene.meshes[mesh_ptr].position = new BABYLON.Vector3(0, -0.5, 0);
-                scene.meshes[mesh_ptr].material.diffuseTexture = texture_from_file;              
-                scene.meshes[mesh_ptr].alwaysSelectAsActiveMesh = true;
-                scene.meshes[mesh_ptr].material.specularColor = BABYLON.Color3.Black();
-            
-            //    break;
-            //}
-        }
-        */
-        
-        //scene.meshes[0].material.diffuseTexture = texture_from_file;
-        //scene.meshes[1].material.diffuseTexture = texture_from_file;
-        
-        /*
-        var sphere1= BABYLON.Mesh.CreateSphere("sphere1", 0.1, 0.1, scene);
-        sphere1.position = new BABYLON.Vector3(0.2 , 1, 0);
-        var sphere2= BABYLON.Mesh.CreateSphere("sphere2", 0.1, 0.1, scene);
-        sphere2.position = new BABYLON.Vector3(-0.2, 1, 0);
-        */
         
       
    
-        console.log(scene.meshes);
+        //console.log(scene.meshes);
 
         scene.executeWhenReady(function() {
             engine.runRenderLoop(function () { 
@@ -520,6 +417,7 @@
              for (i = 47; i<=127; i=i+20){
                  for (j = 138; j<=206; j=j+17){
                      if (scene.getMeshByName("cloth1weight" + i + "height" + j )){
+                         
                  scene.getMeshByName("cloth1weight" + i + "height" + j ).dispose();
                  console.log("cloth1weight" + i + "height" + j );
                      }
@@ -530,95 +428,19 @@
             
             var cloth_mesh = new TOB_mdcloth.MeshFactory(scene); // materialsRootDir optional
             var weightsilder = document.getElementById("slide2").value*100+47;
-            var heightsilder = (document.getElementById("slide1").value*-1+1)*68+138;
+            var heightsilder = (document.getElementById("slide1").value*-1+1)*17/0.25+138;
             
             var mesh1 = cloth_mesh.instance("cloth1weight" + weightsilder + "height" + heightsilder ); // cloneSkeleton optional
             mesh1.material= bumpMaterial;     
         
             
-        /*
-        if(document.getElementById("slide2").value == 0.2){
-             if (scene.getMeshByName("cloth1weight47")){
-            scene.getMeshByName("cloth1weight47").dispose();
-            }
-             if (scene.getMeshByName("cloth1weight87")){
-            scene.getMeshByName("cloth1weight87").dispose();
-            }
-              if (scene.getMeshByName("cloth1weight107")){
-            scene.getMeshByName("cloth1weight107").dispose();
-            }
-             if (scene.getMeshByName("cloth1weight129")){
-            scene.getMeshByName("cloth1weight129").dispose();
-            }
-            var cloth_mesh = new TOB_mdcloth.MeshFactory(scene); // materialsRootDir optional
-      
-            var mesh1 = cloth_mesh.instance("cloth1weight67"); // cloneSkeleton optional
+	       
+	    
+            mesh1.animations.push(anim);
+	        scene.beginAnimation(mesh1, 60, 0, true, 1);
             
-            mesh1.material = bumpMaterial;    
-            console.log("cloth1weight67");
-        }
-        if(document.getElementById("slide2").value == 0.4){
-             if (scene.getMeshByName("cloth1weight67")){
-            scene.getMeshByName("cloth1weight67").dispose();
-            }
-             if (scene.getMeshByName("cloth1weight47")){
-            scene.getMeshByName("cloth1weight47").dispose();
-            }
             
-              if (scene.getMeshByName("cloth1weight107")){
-            scene.getMeshByName("cloth1weight107").dispose();
-            }
-             if (scene.getMeshByName("cloth1weight129")){
-            scene.getMeshByName("cloth1weight129").dispose();
-            }
-            var cloth_mesh = new TOB_mdcloth.MeshFactory(scene); // materialsRootDir optional
-      
-            var mesh1 = cloth_mesh.instance("cloth1weight87"); // cloneSkeleton optional
             
-            mesh1.material = bumpMaterial;   
-            
-            console.log("cloth1weight87");
-        }
-         if(document.getElementById("slide2").value == 0.6){
-             if (scene.getMeshByName("cloth1weight67")){
-            scene.getMeshByName("cloth1weight67").dispose();
-            }
-             if (scene.getMeshByName("cloth1weight47")){
-            scene.getMeshByName("cloth1weight47").dispose();
-            }
-              if (scene.getMeshByName("cloth1weight87")){
-            scene.getMeshByName("cloth1weight87").dispose();
-            }
-               if (scene.getMeshByName("cloth1weight129")){
-            scene.getMeshByName("cloth1weight129").dispose();
-            }
-            var cloth_mesh = new TOB_mdcloth.MeshFactory(scene); // materialsRootDir optional
-      
-            var mesh1 = cloth_mesh.instance("cloth1weight107"); // cloneSkeleton optional
-            
-            mesh1.material = bumpMaterial;      
-            console.log("cloth1weight107");
-        }
-         if(document.getElementById("slide2").value == 0.8){
-             if (scene.getMeshByName("cloth1weight67")){
-            scene.getMeshByName("cloth1weight67").dispose();
-            }
-             if (scene.getMeshByName("cloth1weight47")){
-            scene.getMeshByName("cloth1weight47").dispose();
-            }
-              if (scene.getMeshByName("cloth1weight87")){
-            scene.getMeshByName("cloth1weight87").dispose();
-            }
-             if (scene.getMeshByName("cloth1weight107")){
-            scene.getMeshByName("cloth1weight107").dispose();
-            }
-            var cloth_mesh = new TOB_mdcloth.MeshFactory(scene); // materialsRootDir optional
-      
-            var mesh1 = cloth_mesh.instance("cloth1weight129"); // cloneSkeleton optional
-            
-            mesh1.material = bumpMaterial;  
-            console.log("cloth1weight129");
-        } */
     }
    
 

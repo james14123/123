@@ -55,12 +55,12 @@ declare module TOB_mdcloth{
         constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : cloth1weight107height138);
     }
 
-    class cloth1weight87height172 extends BABYLON.Mesh {
-        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : cloth1weight87height172);
-    }
-
     class cloth1weight87height189 extends BABYLON.Mesh {
         constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : cloth1weight87height189);
+    }
+
+    class cloth1weight87height172 extends BABYLON.Mesh {
+        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : cloth1weight87height172);
     }
 
     class cloth1weight87height155 extends BABYLON.Mesh {
@@ -112,8 +112,6 @@ declare module TOB_mdcloth{
     }
 
     export function defineCameras(scene : BABYLON.Scene, positionOffset? : BABYLON.Vector3) : void;
-
-    export function defineLights(scene : BABYLON.Scene, positionOffset? : BABYLON.Vector3) : void;
 
     export function freshenShadowRenderLists(scene : BABYLON.Scene) : void;
 }
