@@ -1,9 +1,7 @@
 @charset "UTF-8";
 
-@media (max-width: 1076px){
-}
-
-
+@media (min-width: 1076px){
+    
 input[type="range"] {
 	-webkit-appearance: none;
 	border-width: 2px;
@@ -20,3 +18,5 @@ input[type="range"]::-webkit-slider-thumb {
 	height: 3em;
 	width: 3em;
 }
+}
+
