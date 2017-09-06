@@ -41,9 +41,30 @@
 }
 
 #body {
+     visibility: hidden;
+     text-align: center;
      height: 640px;
      width: 360px;
      position: absolute;
      margin: -640px 0 0 86px;
-     background-color: 20;
+     background-color: burlywood;
+}
+
+
+input[type="range"] {
+	-webkit-appearance: none;
+    width: 20em;
+	border-width: px;
+	border-style: solid;
+	border-radius: 50rem;
+	border-color: rgba(0, 0, 0, 0.1);
+	padding: 2px 2px;
+    
+}
+input[type="range"]::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	background: #89B84C;
+	border-radius: 50rem;
+	height: 2em;
+	width: 2em;
 }

@@ -30,24 +30,58 @@
 <body style="width: 450px; height: 640px;">
 <div id="main">    
 <div id="btn-bar">
-<button class="btn">Body</button>
+<button class="btn" onclick="bodyadjust()">Body</button>
     
 <button class="btn">2</button>
 </div>
 <canvas id="renderCanvas"></canvas>
     
     
-<div id="body">
+<div id="body" >
+<font face="微軟正黑體">     
+    <br/>
+    <br/>
+<label id="label1">Height</label><br/>
+<input id="slide1" type="range" min="0" max="1.04" step="0.26"  value="0"
+       onchange="updateslidervertexdeformation(this.value,slide2.value,slide3.value,slide4.value,slide5.value,slide6.value,slide7.value),clothsizeupdate()" ><br/>
+<label id="label2">Weight</label><br/>
+<input id="slide2" type="range" min="0" max="0.8" step="0.2"  value="0"
+       onchange="updateslidervertexdeformation(slide1.value,this.value,slide3.value,slide4.value,slide5.value,slide6.value,slide7.value),clothsizeupdate()" ><br/>
+<label id="label3">Waist</label><br/>
+<input id="slide3" type="range" min="0" max="1" step="0.1" value="0" 
+       onchange="updateslidervertexdeformation(slide1.value,slide2.value,this.value,slide4.value,slide5.value,slide6.value,slide7.value),clothsizeupdate()"><br/>
+<label id="label4">UpperChest</label><br/>
+<input id="slide4" type="range" min="0" max="1" step="0.1" value="0" 
+        onchange="updateslidervertexdeformation(slide1.value,slide2.value,slide3.value,this.value,slide5.value,slide6.value,slide7.value),clothsizeupdate()"><br/>
+<label id="label5">Shoudler</label><br/>
+<input id="slide5" type="range" min="0" max="1" step="0.1" value="0" 
+        onchange="updateslidervertexdeformation(slide1.value,slide2.value,slide3.value,slide4.value,this.value,slide6.value,slide7.value),clothsizeupdate()"><br/>
+<label id="label6">Hips</label><br/>
+<input id="slide6" type="range" min="0" max="1" step="0.1" value="0" 
+        onchange="updateslidervertexdeformation(slide1.value,slide2.value,slide3.value,slide4.value,slide5.value,this.value,slide7.value),clothsizeupdate()"><br/>
+<label id="label7">Breast</label><br/>
+<input id="slide7" type="range" min="0" max="1" step="0.1" value="0" 
+        onchange="updateslidervertexdeformation(slide1.value,slide2.value,slide3.value,slide4.value,slide5.value,slide6.value,this.value),clothsizeupdate()"><br/>
+
     
-    
-</div>
+    </font>
 </div>
 
 
     
 
 <script>
+document.getElementById("body").style.visibility = "hidden";
+function bodyadjust(){
+           
+    if(document.getElementById("body").style.visibility == "hidden"){
 
+        document.getElementById("body").style.visibility = "visible";
+    }else{
+        document.getElementById("body").style.visibility = "hidden";
+    }
+    
+}
     </script>
     
 <script>
