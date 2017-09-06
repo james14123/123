@@ -2,8 +2,8 @@
 
 
 #tryon_window{
-    height: 330px;
-    width: 225px;; 
+    height: 165px;
+    width: 112.5px;; 
     position: absolute;  
     overflow: hidden; 
     z-index: 999999; 
