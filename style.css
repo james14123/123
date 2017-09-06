@@ -9,7 +9,7 @@
             border: 2px solid #4CAF50; /* Green */
             height: 40px;
             width: 140px;
-            position: fixed;
+            position: absolute;
             top: 4%;
             left: 5%;
             font-size: 20px;
@@ -28,7 +28,7 @@
     
     width: 462px; 
     height: 656px;  
-    position: absolute;  
+    position: fixed;  
     overflow: hidden; 
     z-index: 999999; 
     right: 0px; 
