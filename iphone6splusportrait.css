@@ -3,7 +3,7 @@
 
 #tryon_window{
     background-color: black;
-    position: absolute;  
+    position: fixed;  
     overflow: hidden; 
     z-index: 999999; 
     right: 0px; 
