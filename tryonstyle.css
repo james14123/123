@@ -12,3 +12,21 @@
              background-color: white;
              
         }   
+#tryon {
+            transition-duration: 0.4s;
+            background-color: white;
+            color: black;
+            border-radius: 20px;
+            border: 2px solid #4CAF50; /* Green */
+            height: 40px;
+            width: 140px;
+            position: absolute;
+            top: 4%;
+            left: 5%;
+            font-size: 20px;
+            transition-duration: 0.1s;
+        }
+#tryon:hover {
+            background-color: #4CAF50; /* Green */
+            color: white;
+        }
