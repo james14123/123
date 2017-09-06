@@ -138,6 +138,7 @@ input[type="range"]::-webkit-slider-thumb {
             background-color: grey; /* Green */
             height: 100px;
         }
+
 #tryon_window{
     visibility: hidden;
 }
