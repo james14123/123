@@ -3,13 +3,14 @@
 
 #tryon_window{
     background-color: black;
-    width: 46.2px; 
-    height: 65.6px; 
+    width: 4.62px; 
+    height: 6.56px; 
     position: absolute;  
     overflow: hidden; 
     z-index: 999999; 
     right: 0px; 
     bottom: 0px;
+    left: 100%;
 }
 
 
