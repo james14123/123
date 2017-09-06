@@ -141,4 +141,13 @@ input[type="range"]::-webkit-slider-thumb {
 
 #tryon_window{
     visibility: hidden;
+    width: 450px; 
+    height: 660px; 
+    position: absolute;  
+    overflow: hidden; 
+    z-index: 999999; 
+    right: 0px; 
+    bottom: 0px;
 }
+
+
