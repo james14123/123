@@ -26,8 +26,8 @@
 
 #tryon_window{
     
-    width: 450px; 
-    height: 640px; 
+    width: 462px; 
+    height: 656px; 
     position: absolute;  
     overflow: hidden; 
     z-index: 999999; 

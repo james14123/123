@@ -7,7 +7,7 @@
              height: 640px;
              width: 360px;
              position: absolute;
-             left: 20%;
+             margin: 10px 0 0 86px;
              Top: 0%;
              background-color: gainsboro;
              
@@ -15,13 +15,35 @@
 
 .btn {
     float: left;
-    height: 70px;
-    width: 70px;
+    transition-duration: 0.4s;
+    background-color: white;
+    color: black;
+    height: 80px;
+    width: 80px;
     border-radius: 40px;
     border: 3px solid #4CAF50; 
+    margin: 4px 0 0 3px;
     font-size: 20px;
+    transition-duration: 0.1s;
+    
 }
+.btn:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
 #btn-bar {
-    width: 70px;
-    height: 500px;
+    width: 80px;
+    height: 640px;
+}
+#main {
+    border: 2px solid #4CAF50; 
+}
+
+#body {
+     height: 640px;
+     width: 360px;
+     position: absolute;
+     margin: -640px 0 0 86px;
+     background-color: 20;
 }
