@@ -36,8 +36,12 @@
         <button id="tryon" onclick="popup()">Try-on</button>
         
     </div>
-    <iframe class="embed-responsive-item" id="tryon_window" style="visibility: hidden;" title="Style.me Try On Plugin" ,="" src="TryOn.html" style="border:5px solid black;"></iframe>
-       
+    
+    <div id="tryon_window">    
+    <iframe src="TryOn.html" id="tryon_window1" style="border:2px solid black;"></iframe>
+    </div>
+    
+    
 <script>
     function popup() {
         if(document.getElementById("tryon_window").style.visibility == "visible"){
