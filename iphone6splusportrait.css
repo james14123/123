@@ -9,8 +9,9 @@
     z-index: 999999; 
     right: 0px; 
     bottom: 0px;
-    width: 46.2px; 
-    height: 65.6px;  
+    width: 462px; 
+    height: 656px;  
+   
      
 }
 
@@ -40,6 +41,6 @@
 
 
 #tryon_window1 {
-    width: 100%;
-    height: 100%;
+    width: 10%;
+    height: 10%;
 }
