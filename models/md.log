@@ -6,27 +6,19 @@ Exporter version: 5.3-beta, Blender version: 2.78 (sub 0)
 		inline textures:  false
 		texture directory:  D:\WIN7_USER\Desktop\TryOn\123\models\
 	Python World class constructor completed
-	processing begun of mesh:  Plane
-		WARNING: No materials have been assigned: 
-		num positions      :  4
-		num normals        :  4
-		num uvs            :  0
-		num uvs2           :  0
-		num colors         :  0
-		num indices        :  6
 	processing begun of mesh:  bodyShape_skin_Shape
 		processing begun of Standard material:  W_hand_leg
 			Diffuse texture found "Kd.010"
 				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
-	WARNING: Error encountered processing image file:  , Error:  'D:\\WIN7_USER\\Desktop\\TryOn\\123\\models\\W_leg_hand_west.jpg' and 'D:\\WIN7_USER\\Desktop\\TryOn\\123\\models\\W_leg_hand_west.jpg' are the same file
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\WIN7_USER\\Desktop\\..\\..\\CLO3D_avatar\\avatarorigin(thin)\\W_leg_hand_west.jpg'
 		processing begun of Standard material:  W_face
 			Diffuse texture found "Kd.009"
 				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
-	WARNING: Error encountered processing image file:  , Error:  'D:\\WIN7_USER\\Desktop\\TryOn\\123\\models\\W_face_west.jpg' and 'D:\\WIN7_USER\\Desktop\\TryOn\\123\\models\\W_face_west.jpg' are the same file
+	WARNING: Error encountered processing image file:  , Error:  'D:\\WIN7_USER\\Desktop\\TryOn\\123\\models\\W_face_west-1.jpg' and 'D:\\WIN7_USER\\Desktop\\TryOn\\123\\models\\W_face_west-1.jpg' are the same file
 		processing begun of Standard material:  W_body
 			Diffuse texture found "Kd.008"
 				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
-	WARNING: Error encountered processing image file:  , Error:  'D:\\WIN7_USER\\Desktop\\TryOn\\123\\models\\W_body_west_lingerie.jpg' and 'D:\\WIN7_USER\\Desktop\\TryOn\\123\\models\\W_body_west_lingerie.jpg' are the same file
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\WIN7_USER\\Desktop\\..\\..\\CLO3D_avatar\\avatarorigin(thin)\\W_body_west_lingerie.jpg'
 		processing begun of Standard material:  dummy
 			Opacity texture found "D.001"
 				Image texture found, type:  opacityTexture, mapped using: "UVMap"
@@ -69,20 +61,17 @@ Exporter version: 5.3-beta, Blender version: 2.78 (sub 0)
 		processing begun of Standard material:  W_eye
 			Diffuse texture found "Kd.007"
 				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
-	WARNING: Error encountered processing image file:  , Error:  'D:\\WIN7_USER\\Desktop\\TryOn\\123\\models\\eye_2.jpg' and 'D:\\WIN7_USER\\Desktop\\TryOn\\123\\models\\eye_2.jpg' are the same file
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\WIN7_USER\\Desktop\\..\\..\\CLO3D_avatar\\avatarorigin(thin)\\eye_2.jpg'
 		processing begun of Standard material:  W_hair_bend
 		processing begun of Standard material:  W_hair
 			Diffuse texture found "Kd.002"
 				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
-	WARNING: Error encountered processing image file:  , Error:  'D:\\WIN7_USER\\Desktop\\TryOn\\123\\models\\woman_hair.png' and 'D:\\WIN7_USER\\Desktop\\TryOn\\123\\models\\woman_hair.png' are the same file
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\WIN7_USER\\Desktop\\..\\..\\CLO3D_avatar\\avatarorigin(thin)\\woman_hair.png'
 		processing begun of Standard material:  W_hair_cap
 			Diffuse texture found "Kd.001"
 				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
-	WARNING: Error encountered processing image file:  , Error:  'D:\\WIN7_USER\\Desktop\\TryOn\\123\\models\\cap.jpg' and 'D:\\WIN7_USER\\Desktop\\TryOn\\123\\models\\cap.jpg' are the same file
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\WIN7_USER\\Desktop\\..\\..\\CLO3D_avatar\\avatarorigin(thin)\\cap.jpg'
 		processing begun of Standard material:  W_face_hair
-			Diffuse texture found "Kd"
-				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
-	WARNING: Error encountered processing image file:  , Error:  'D:\\WIN7_USER\\Desktop\\TryOn\\123\\models\\W_face_west-1.jpg' and 'D:\\WIN7_USER\\Desktop\\TryOn\\123\\models\\W_face_west-1.jpg' are the same file
 		processing begun of multimaterial:  md.Multimaterial#0
 		num positions      :  65238
 		num normals        :  65238
@@ -105,4 +94,4 @@ Exporter version: 5.3-beta, Blender version: 2.78 (sub 0)
 ========= Writing of files started =========
 ========= Writing of files completed =========
 ========= end of processing =========
-elapsed time:  0 min, 20.459 secs
+elapsed time:  0 min, 14.266 secs

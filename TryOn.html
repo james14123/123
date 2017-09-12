@@ -42,14 +42,14 @@
     <br/>
     <br/>
 <label id="label1">Height</label><br/>
-<input id="slide1" type="range" min="0" max="1.04" step="0.26"  value="0"
-       onchange="updateslidervertexdeformation(this.value,slide2.value,slide3.value,slide4.value,slide5.value,slide6.value,slide7.value),clothsizeupdate()" ><br/>
+<input id="slide1" type="range" min="0" max="100" step="25"  value="0"
+       onchange="updateslidervertexdeformation(this.value/100,slide2.value/100,slide3.value/100,slide4.value/100,slide5.value/100,slide6.value/100,slide7.value/100),clothsizeupdate()" ><br/>
 <label id="label2">Weight</label><br/>
-<input id="slide2" type="range" min="0" max="0.8" step="0.2"  value="0"
-       onchange="updateslidervertexdeformation(slide1.value,this.value,slide3.value,slide4.value,slide5.value,slide6.value,slide7.value),clothsizeupdate()" ><br/>
+<input id="slide2" type="range" min="0" max="100" step="25"  value="0"
+       onchange="updateslidervertexdeformation(slide1.value/100,this.value/100,slide3.value/100,slide4.value/100,slide5.value/100,slide6.value/100,slide7.value/100),clothsizeupdate()" ><br/>
 <label id="label3">Waist</label><br/>
 <input id="slide3" type="range" min="0" max="1" step="0.1" value="0" 
-       onchange="updateslidervertexdeformation(slide1.value,slide2.value,this.value,slide4.value,slide5.value,slide6.value,slide7.value),clothsizeupdate()"><br/>
+       onchange="updateslidervertexdeformation(slide1.value/100,slide2.value/100,this.value/100,slide4.value/100,slide5.value/100,slide6.value/100,slide7.value/100),clothsizeupdate()"><br/>
 <label id="label4">UpperChest</label><br/>
 <input id="slide4" type="range" min="0" max="1" step="0.1" value="0" 
         onchange="updateslidervertexdeformation(slide1.value,slide2.value,slide3.value,this.value,slide5.value,slide6.value,slide7.value),clothsizeupdate()"><br/>
@@ -192,7 +192,7 @@ function bodyadjust(){
         
         
         
-        //clothsizeupdate();
+        clothsizeupdate();
         
      
         
@@ -282,12 +282,12 @@ function bodyadjust(){
     
     function clothsizeupdate() {
             
-             for (i = 47; i<=127; i=i+20){
-                 for (j = 138; j<=206; j=j+17){
-                     if (scene.getMeshByName("cloth1weight" + i + "height" + j )){
+             for (i = 0; i<=100; i=i+25){
+                 for (j = 0; j<=100; j=j+25){
+                     if (scene.getMeshByName("height" + i + "weight" + j )){
                          
-                 scene.getMeshByName("cloth1weight" + i + "height" + j ).dispose();
-                 console.log("cloth1weight" + i + "height" + j );
+                 scene.getMeshByName("height" + i + "weight" + j).dispose();
+                 console.log("dispose : height" + i + "weight" + j);
                      }
               
                  }
@@ -295,10 +295,10 @@ function bodyadjust(){
             
             
             var cloth_mesh = new TOB_mdcloth.MeshFactory(scene); // materialsRootDir optional
-            var weightsilder = document.getElementById("slide2").value*100+47;
-            var heightsilder = (document.getElementById("slide1").value*-1+1.04)*17/0.26+138;
+            var weightsilder = document.getElementById("slide2").value;
+            var heightsilder = (document.getElementById("slide1").value*-1+100);
             
-            var mesh1 = cloth_mesh.instance("cloth1weight" + weightsilder + "height" + heightsilder ); // cloneSkeleton optional
+            var mesh1 = cloth_mesh.instance("height" + heightsilder + "weight" + weightsilder ); // cloneSkeleton optional
             mesh1.material= bumpMaterial;     
         
             

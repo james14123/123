@@ -6,328 +6,333 @@ Exporter version: 5.3-beta, Blender version: 2.78 (sub 0)
 		inline textures:  false
 		texture directory:  D:\WIN7_USER\Desktop\TryOn\123\models\mdcloth\
 	Python World class constructor completed
-	processing begun of mesh:  cloth1weight67height206
-		processing begun of Standard material:  Default_Fabric_FRONT_39164.001
-			Ambient texture found "Ka.001"
-				Image texture found, type:  ambientTexture, mapped using: "UVMap"
-			Diffuse texture found "Kd.012"
-				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
-		num positions      :  14432
-		num normals        :  14432
-		num uvs            :  28864
-		num uvs2           :  0
-		num colors         :  0
-		num indices        :  77208
-		WARNING: # of 0 area faces found:  804
-	processing begun of mesh:  cloth1weight67height172
-		processing begun of Standard material:  Default_Fabric_FRONT_39164
-			Ambient texture found "Ka"
-				Image texture found, type:  ambientTexture, mapped using: "UVMap"
-			Diffuse texture found "Kd.011"
-				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
-		num positions      :  14432
-		num normals        :  14432
-		num uvs            :  28864
-		num uvs2           :  0
-		num colors         :  0
-		num indices        :  77208
-		WARNING: # of 0 area faces found:  802
-	processing begun of mesh:  cloth1weight127height189
-		processing begun of Standard material:  Default_Fabric_FRONT_39164.030
-			Diffuse texture found "Kd.041"
-				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
-		num positions      :  14432
-		num normals        :  14432
-		num uvs            :  28864
-		num uvs2           :  0
-		num colors         :  0
-		num indices        :  77208
-		WARNING: # of 0 area faces found:  816
-	processing begun of mesh:  cloth1weight127height172
-		processing begun of Standard material:  Default_Fabric_FRONT_39164.029
-			Ambient texture found "Ka.031"
-				Image texture found, type:  ambientTexture, mapped using: "UVMap"
-			Diffuse texture found "Kd.040"
-				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
-		num positions      :  14432
-		num normals        :  14432
-		num uvs            :  28864
-		num uvs2           :  0
-		num colors         :  0
-		num indices        :  77208
-		WARNING: # of 0 area faces found:  806
-	processing begun of mesh:  cloth1weight127height206
-		processing begun of baked material:  cloth1weight127height206
-			Internal baking texture, type: TEXTURE, mapped using: UVMap
-			Internal baking texture, type: AO, mapped using: UVMap
-		num positions      :  14432
-		num normals        :  14432
-		num uvs            :  28864
-		num uvs2           :  0
-		num colors         :  0
-		num indices        :  77208
-		WARNING: # of 0 area faces found:  820
-	processing begun of mesh:  cloth1weight127height155
-		processing begun of Standard material:  Default_Fabric_FRONT_39164.027
-			Ambient texture found "Ka.028"
-				Image texture found, type:  ambientTexture, mapped using: "UVMap"
-			Diffuse texture found "Kd.037"
-				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
-		num positions      :  14432
-		num normals        :  14432
-		num uvs            :  28864
-		num uvs2           :  0
-		num colors         :  0
-		num indices        :  77208
-		WARNING: # of 0 area faces found:  808
-	processing begun of mesh:  cloth1weight127height138
-		processing begun of Standard material:  Default_Fabric_FRONT_39164.026
-			Ambient texture found "Ka.027"
-				Image texture found, type:  ambientTexture, mapped using: "UVMap"
-			Diffuse texture found "Kd.036"
-				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
-		num positions      :  14432
-		num normals        :  14432
-		num uvs            :  28864
-		num uvs2           :  0
-		num colors         :  0
-		num indices        :  77208
-		WARNING: # of 0 area faces found:  816
-	processing begun of mesh:  cloth1weight107height189
-		processing begun of Standard material:  Default_Fabric_FRONT_39164.025
-			Ambient texture found "Ka.026"
-				Image texture found, type:  ambientTexture, mapped using: "UVMap"
-			Diffuse texture found "Kd.035"
-				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
-		num positions      :  14432
-		num normals        :  14432
-		num uvs            :  28864
-		num uvs2           :  0
-		num colors         :  0
-		num indices        :  77208
-		WARNING: # of 0 area faces found:  812
-	processing begun of mesh:  cloth1weight107height172
-		processing begun of Standard material:  Default_Fabric_FRONT_39164.024
-			Ambient texture found "Ka.025"
-				Image texture found, type:  ambientTexture, mapped using: "UVMap"
-			Diffuse texture found "Kd.034"
-				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
-		num positions      :  14432
-		num normals        :  14432
-		num uvs            :  28864
-		num uvs2           :  0
-		num colors         :  0
-		num indices        :  77208
-		WARNING: # of 0 area faces found:  814
-	processing begun of mesh:  cloth1weight107height155
-		processing begun of Standard material:  Default_Fabric_FRONT_39164.023
-			Ambient texture found "Ka.024"
-				Image texture found, type:  ambientTexture, mapped using: "UVMap"
-			Diffuse texture found "Kd.033"
-				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
-		num positions      :  14432
-		num normals        :  14432
-		num uvs            :  28864
-		num uvs2           :  0
-		num colors         :  0
-		num indices        :  77208
-		WARNING: # of 0 area faces found:  806
-	processing begun of mesh:  cloth1weight107height138
-		processing begun of Standard material:  Default_Fabric_FRONT_39164.022
-			Ambient texture found "Ka.023"
-				Image texture found, type:  ambientTexture, mapped using: "UVMap"
-			Diffuse texture found "Kd.032"
-				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
-		num positions      :  14432
-		num normals        :  14432
-		num uvs            :  28864
-		num uvs2           :  0
-		num colors         :  0
-		num indices        :  77208
-		WARNING: # of 0 area faces found:  804
-	processing begun of mesh:  cloth1weight87height189
-		processing begun of Standard material:  Default_Fabric_FRONT_39164.021
-			Ambient texture found "Ka.022"
-				Image texture found, type:  ambientTexture, mapped using: "UVMap"
-			Diffuse texture found "Kd.031"
-				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
-		num positions      :  14432
-		num normals        :  14432
-		num uvs            :  28864
-		num uvs2           :  0
-		num colors         :  0
-		num indices        :  77208
-		WARNING: # of 0 area faces found:  806
-	processing begun of mesh:  cloth1weight87height172
-		processing begun of Standard material:  Default_Fabric_FRONT_39164.020
-			Ambient texture found "Ka.021"
-				Image texture found, type:  ambientTexture, mapped using: "UVMap"
-			Diffuse texture found "Kd.030"
-				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
-		num positions      :  14432
-		num normals        :  14432
-		num uvs            :  28864
-		num uvs2           :  0
-		num colors         :  0
-		num indices        :  77208
-		WARNING: # of 0 area faces found:  804
-	processing begun of mesh:  cloth1weight87height155
-		processing begun of Standard material:  Default_Fabric_FRONT_39164.019
-			Ambient texture found "Ka.020"
-				Image texture found, type:  ambientTexture, mapped using: "UVMap"
-			Diffuse texture found "Kd.029"
-				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
-		num positions      :  14432
-		num normals        :  14432
-		num uvs            :  28864
-		num uvs2           :  0
-		num colors         :  0
-		num indices        :  77208
-		WARNING: # of 0 area faces found:  810
-	processing begun of mesh:  cloth1weight87height138
-		processing begun of Standard material:  Default_Fabric_FRONT_39164.018
-			Ambient texture found "Ka.019"
-				Image texture found, type:  ambientTexture, mapped using: "UVMap"
-			Diffuse texture found "Kd.028"
-				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
-		num positions      :  14432
-		num normals        :  14432
-		num uvs            :  28864
-		num uvs2           :  0
-		num colors         :  0
-		num indices        :  77208
-		WARNING: # of 0 area faces found:  808
-	processing begun of mesh:  cloth1weight67height189
-		processing begun of Standard material:  Default_Fabric_FRONT_39164.017
-			Ambient texture found "Ka.018"
-				Image texture found, type:  ambientTexture, mapped using: "UVMap"
-			Diffuse texture found "Kd.027"
-				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
-		num positions      :  14432
-		num normals        :  14432
-		num uvs            :  28864
-		num uvs2           :  0
-		num colors         :  0
-		num indices        :  77208
-		WARNING: # of 0 area faces found:  808
-	processing begun of mesh:  cloth1weight67height155
-		processing begun of Standard material:  Default_Fabric_FRONT_39164.015
+	WARNING: No active camera has been assigned, or is not in a currently selected Blender layer
+	processing begun of mesh:  height100weight100
+		processing begun of Standard material:  Material3772.009
 			Ambient texture found "Ka.016"
 				Image texture found, type:  ambientTexture, mapped using: "UVMap"
-			Diffuse texture found "Kd.025"
+			Diffuse texture found "Kd.016"
 				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
-		num positions      :  14432
-		num normals        :  14432
-		num uvs            :  28864
+		num positions      :  15070
+		num normals        :  15070
+		num uvs            :  30140
 		num uvs2           :  0
 		num colors         :  0
-		num indices        :  77208
-		WARNING: # of 0 area faces found:  802
-	processing begun of mesh:  cloth1weight67height138
-		processing begun of Standard material:  Default_Fabric_FRONT_39164.014
+		num indices        :  78384
+		WARNING: # of 0 area faces found:  1168
+	processing begun of mesh:  height75weight100
+		processing begun of Standard material:  Material3772.008
 			Ambient texture found "Ka.015"
-				Image texture found, type:  ambientTexture, mapped using: "UVMap"
-			Diffuse texture found "Kd.024"
-				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
-		num positions      :  14432
-		num normals        :  14432
-		num uvs            :  28864
-		num uvs2           :  0
-		num colors         :  0
-		num indices        :  77208
-		WARNING: # of 0 area faces found:  816
-	processing begun of mesh:  cloth1weight47height189
-		processing begun of Standard material:  Default_Fabric_FRONT_39164.013
-			Ambient texture found "Ka.014"
-				Image texture found, type:  ambientTexture, mapped using: "UVMap"
-			Diffuse texture found "Kd.023"
-				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
-		num positions      :  14432
-		num normals        :  14432
-		num uvs            :  28864
-		num uvs2           :  0
-		num colors         :  0
-		num indices        :  77208
-		WARNING: # of 0 area faces found:  806
-	processing begun of mesh:  cloth1weight47height172
-		processing begun of Standard material:  Default_Fabric_FRONT_39164.012
-			Ambient texture found "Ka.013"
-				Image texture found, type:  ambientTexture, mapped using: "UVMap"
-			Diffuse texture found "Kd.022"
-				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
-		num positions      :  14432
-		num normals        :  14432
-		num uvs            :  28864
-		num uvs2           :  0
-		num colors         :  0
-		num indices        :  77208
-		WARNING: # of 0 area faces found:  808
-	processing begun of mesh:  cloth1weight47height155
-		processing begun of Standard material:  Default_Fabric_FRONT_39164.011
-			Diffuse texture found "Kd.021"
-				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
-		num positions      :  14432
-		num normals        :  14432
-		num uvs            :  28864
-		num uvs2           :  0
-		num colors         :  0
-		num indices        :  77208
-		WARNING: # of 0 area faces found:  806
-	processing begun of mesh:  cloth1weight47height138
-		processing begun of Standard material:  Default_Fabric_FRONT_39164.003
-			Ambient texture found "Ka.011"
-				Image texture found, type:  ambientTexture, mapped using: "UVMap"
-			Diffuse texture found "Kd.020"
-				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
-		num positions      :  14432
-		num normals        :  14432
-		num uvs            :  28864
-		num uvs2           :  0
-		num colors         :  0
-		num indices        :  77208
-		WARNING: # of 0 area faces found:  808
-	processing begun of mesh:  cloth1weight107height206
-		processing begun of Standard material:  Default_Fabric_FRONT_39164.009
-			Ambient texture found "Ka.009"
-				Image texture found, type:  ambientTexture, mapped using: "UVMap"
-			Diffuse texture found "Kd.018"
-				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
-		num positions      :  14432
-		num normals        :  14432
-		num uvs            :  28864
-		num uvs2           :  0
-		num colors         :  0
-		num indices        :  77208
-		WARNING: # of 0 area faces found:  822
-	processing begun of mesh:  cloth1weight87height206
-		processing begun of Standard material:  Default_Fabric_FRONT_39164.008
-			Ambient texture found "Ka.008"
-				Image texture found, type:  ambientTexture, mapped using: "UVMap"
-			Diffuse texture found "Kd.017"
-				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
-		num positions      :  14432
-		num normals        :  14432
-		num uvs            :  28864
-		num uvs2           :  0
-		num colors         :  0
-		num indices        :  77208
-		WARNING: # of 0 area faces found:  844
-	processing begun of mesh:  cloth1weight47height206
-		processing begun of Standard material:  Default_Fabric_FRONT_39164.006
-			Ambient texture found "Ka.006"
 				Image texture found, type:  ambientTexture, mapped using: "UVMap"
 			Diffuse texture found "Kd.015"
 				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
-		num positions      :  14432
-		num normals        :  14432
-		num uvs            :  28864
+		num positions      :  15070
+		num normals        :  15070
+		num uvs            :  30140
 		num uvs2           :  0
 		num colors         :  0
-		num indices        :  77208
-		WARNING: # of 0 area faces found:  818
-	processing begun of camera (UniversalCamera):  Camera
-	WARNING: The following lamp not visible in scene thus ignored: Lamp
+		num indices        :  78384
+		WARNING: # of 0 area faces found:  1174
+	processing begun of mesh:  height50weight100
+		processing begun of Standard material:  Material3772.007
+			Ambient texture found "Ka.014"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.014"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  15070
+		num normals        :  15070
+		num uvs            :  30140
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  78384
+		WARNING: # of 0 area faces found:  1174
+	processing begun of mesh:  height25weight100
+		processing begun of Standard material:  Material3772.006
+			Ambient texture found "Ka.013"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.013"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  15070
+		num normals        :  15070
+		num uvs            :  30140
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  78384
+		WARNING: # of 0 area faces found:  1152
+	processing begun of mesh:  height0weight100
+		processing begun of Standard material:  Material3772.005
+			Ambient texture found "Ka.012"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.012"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  15070
+		num normals        :  15070
+		num uvs            :  30140
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  78384
+		WARNING: # of 0 area faces found:  1162
+	processing begun of mesh:  height100weight75
+		processing begun of Standard material:  Material3772.004
+			Ambient texture found "Ka.011"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.011"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  15070
+		num normals        :  15070
+		num uvs            :  30140
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  78384
+		WARNING: # of 0 area faces found:  1164
+	processing begun of mesh:  height75weight75
+		processing begun of Standard material:  Material3772.003
+			Ambient texture found "Ka.010"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.010"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  15070
+		num normals        :  15070
+		num uvs            :  30140
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  78384
+		WARNING: # of 0 area faces found:  1178
+	processing begun of mesh:  height50weight75
+		processing begun of Standard material:  Material3772.002
+			Ambient texture found "Ka.009"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.009"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  15070
+		num normals        :  15070
+		num uvs            :  30140
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  78384
+		WARNING: # of 0 area faces found:  1148
+	processing begun of mesh:  height25weight75
+		processing begun of Standard material:  Material3772.001
+			Ambient texture found "Ka.008"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.008"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  15070
+		num normals        :  15070
+		num uvs            :  30140
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  78384
+		WARNING: # of 0 area faces found:  1154
+	processing begun of mesh:  height0weight75
+		processing begun of Standard material:  Material3772
+			Ambient texture found "Ka.007"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.007"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  15070
+		num normals        :  15070
+		num uvs            :  30140
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  78384
+		WARNING: # of 0 area faces found:  1148
+	processing begun of mesh:  height0weight50
+		processing begun of Standard material:  Material3772.016
+			Ambient texture found "Ka.006"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.006"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  15070
+		num normals        :  15070
+		num uvs            :  30140
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  78384
+		WARNING: # of 0 area faces found:  1144
+	processing begun of mesh:  height100weight50
+		processing begun of Standard material:  Material3772.014
+			Ambient texture found "Ka.004"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.004"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  15070
+		num normals        :  15070
+		num uvs            :  30140
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  78384
+		WARNING: # of 0 area faces found:  1160
+	processing begun of mesh:  height75weight50
+		processing begun of Standard material:  Material3772.013
+			Ambient texture found "Ka.003"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.003"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  15070
+		num normals        :  15070
+		num uvs            :  30140
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  78384
+		WARNING: # of 0 area faces found:  1148
+	processing begun of mesh:  height50weight50
+		processing begun of Standard material:  Material3772.012
+			Ambient texture found "Ka.002"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.002"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  15070
+		num normals        :  15070
+		num uvs            :  30140
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  78384
+		WARNING: # of 0 area faces found:  1144
+	processing begun of mesh:  height25weight50
+		processing begun of Standard material:  Material3772.011
+			Ambient texture found "Ka.001"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.001"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  15070
+		num normals        :  15070
+		num uvs            :  30140
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  78384
+		WARNING: # of 0 area faces found:  1144
+	processing begun of mesh:  height100weight25
+		processing begun of Standard material:  Material3772.037
+			Ambient texture found "Ka.037"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.048"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  15070
+		num normals        :  15070
+		num uvs            :  30140
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  78384
+		WARNING: # of 0 area faces found:  1148
+	processing begun of mesh:  height75weight25
+		processing begun of Standard material:  Material3772.035
+			Ambient texture found "Ka.035"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.046"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  15070
+		num normals        :  15070
+		num uvs            :  30140
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  78384
+		WARNING: # of 0 area faces found:  1146
+	processing begun of mesh:  height50weight25
+		processing begun of Standard material:  Material3772.033
+			Ambient texture found "Ka.033"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.044"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  15070
+		num normals        :  15070
+		num uvs            :  30140
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  78384
+		WARNING: # of 0 area faces found:  1164
+	processing begun of mesh:  height25weight25
+		processing begun of Standard material:  Material3772.031
+			Ambient texture found "Ka.031"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.042"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  15070
+		num normals        :  15070
+		num uvs            :  30140
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  78384
+		WARNING: # of 0 area faces found:  1146
+	processing begun of mesh:  height0weight25
+		processing begun of Standard material:  Material3772.030
+			Ambient texture found "Ka.030"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.041"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  15070
+		num normals        :  15070
+		num uvs            :  30140
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  78384
+		WARNING: # of 0 area faces found:  1144
+	processing begun of mesh:  height0weight0
+		processing begun of Standard material:  Material3772.028
+			Ambient texture found "Ka.028"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.039"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  15070
+		num normals        :  15070
+		num uvs            :  30140
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  78384
+		WARNING: # of 0 area faces found:  1144
+	processing begun of mesh:  height75weight0
+		processing begun of Standard material:  Material3772.027
+			Ambient texture found "Ka.027"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.038"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  15070
+		num normals        :  15070
+		num uvs            :  30140
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  78384
+		WARNING: # of 0 area faces found:  1146
+	processing begun of mesh:  height25weight0
+		processing begun of Standard material:  Material3772.026
+			Ambient texture found "Ka.026"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.037"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  15070
+		num normals        :  15070
+		num uvs            :  30140
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  78384
+		WARNING: # of 0 area faces found:  1148
+	processing begun of mesh:  height100weight0
+		processing begun of Standard material:  Material3772.024
+			Ambient texture found "Ka.024"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.035"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  15070
+		num normals        :  15070
+		num uvs            :  30140
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  78384
+		WARNING: # of 0 area faces found:  1144
+	processing begun of mesh:  height50weight0
+		processing begun of Standard material:  Material3772.023
+			Ambient texture found "Ka.023"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.034"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  15070
+		num normals        :  15070
+		num uvs            :  30140
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  78384
+		WARNING: # of 0 area faces found:  1146
 ========= Writing of files started =========
 ========= Writing of files completed =========
 ========= end of processing =========
-elapsed time:  3 min, 38.057 secs
+elapsed time:  0 min, 56.363 secs

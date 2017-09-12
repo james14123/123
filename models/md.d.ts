@@ -11,10 +11,6 @@ declare module md{
     export function matReadAhead(materialsRootDir) : void;
     export function defineMaterials(scene : BABYLON.Scene, materialsRootDir : string = "./") : void;
 
-    class Plane extends BABYLON.Mesh {
-        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : Plane);
-    }
-
     class bodyShape_skin_Shape extends QI.Mesh {
         constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : bodyShape_skin_Shape);
     }

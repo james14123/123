@@ -11,107 +11,105 @@ declare module TOB_mdcloth{
     export function matReadAhead(materialsRootDir) : void;
     export function defineMaterials(scene : BABYLON.Scene, materialsRootDir : string = "./") : void;
 
-    class cloth1weight67height206 extends BABYLON.Mesh {
-        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : cloth1weight67height206);
+    class height100weight100 extends BABYLON.Mesh {
+        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : height100weight100);
     }
 
-    class cloth1weight67height172 extends BABYLON.Mesh {
-        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : cloth1weight67height172);
+    class height75weight100 extends BABYLON.Mesh {
+        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : height75weight100);
     }
 
-    class cloth1weight127height189 extends BABYLON.Mesh {
-        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : cloth1weight127height189);
+    class height50weight100 extends BABYLON.Mesh {
+        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : height50weight100);
     }
 
-    class cloth1weight127height172 extends BABYLON.Mesh {
-        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : cloth1weight127height172);
+    class height25weight100 extends BABYLON.Mesh {
+        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : height25weight100);
     }
 
-    class cloth1weight127height206 extends BABYLON.Mesh {
-        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : cloth1weight127height206);
+    class height0weight100 extends BABYLON.Mesh {
+        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : height0weight100);
     }
 
-    class cloth1weight127height155 extends BABYLON.Mesh {
-        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : cloth1weight127height155);
+    class height100weight75 extends BABYLON.Mesh {
+        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : height100weight75);
     }
 
-    class cloth1weight127height138 extends BABYLON.Mesh {
-        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : cloth1weight127height138);
+    class height75weight75 extends BABYLON.Mesh {
+        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : height75weight75);
     }
 
-    class cloth1weight107height189 extends BABYLON.Mesh {
-        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : cloth1weight107height189);
+    class height50weight75 extends BABYLON.Mesh {
+        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : height50weight75);
     }
 
-    class cloth1weight107height172 extends BABYLON.Mesh {
-        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : cloth1weight107height172);
+    class height25weight75 extends BABYLON.Mesh {
+        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : height25weight75);
     }
 
-    class cloth1weight107height155 extends BABYLON.Mesh {
-        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : cloth1weight107height155);
+    class height0weight75 extends BABYLON.Mesh {
+        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : height0weight75);
     }
 
-    class cloth1weight107height138 extends BABYLON.Mesh {
-        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : cloth1weight107height138);
+    class height0weight50 extends BABYLON.Mesh {
+        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : height0weight50);
     }
 
-    class cloth1weight87height189 extends BABYLON.Mesh {
-        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : cloth1weight87height189);
+    class height100weight50 extends BABYLON.Mesh {
+        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : height100weight50);
     }
 
-    class cloth1weight87height172 extends BABYLON.Mesh {
-        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : cloth1weight87height172);
+    class height75weight50 extends BABYLON.Mesh {
+        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : height75weight50);
     }
 
-    class cloth1weight87height155 extends BABYLON.Mesh {
-        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : cloth1weight87height155);
+    class height50weight50 extends BABYLON.Mesh {
+        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : height50weight50);
     }
 
-    class cloth1weight87height138 extends BABYLON.Mesh {
-        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : cloth1weight87height138);
+    class height25weight50 extends BABYLON.Mesh {
+        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : height25weight50);
     }
 
-    class cloth1weight67height189 extends BABYLON.Mesh {
-        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : cloth1weight67height189);
+    class height100weight25 extends BABYLON.Mesh {
+        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : height100weight25);
     }
 
-    class cloth1weight67height155 extends BABYLON.Mesh {
-        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : cloth1weight67height155);
+    class height75weight25 extends BABYLON.Mesh {
+        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : height75weight25);
     }
 
-    class cloth1weight67height138 extends BABYLON.Mesh {
-        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : cloth1weight67height138);
+    class height50weight25 extends BABYLON.Mesh {
+        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : height50weight25);
     }
 
-    class cloth1weight47height189 extends BABYLON.Mesh {
-        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : cloth1weight47height189);
+    class height25weight25 extends BABYLON.Mesh {
+        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : height25weight25);
     }
 
-    class cloth1weight47height172 extends BABYLON.Mesh {
-        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : cloth1weight47height172);
+    class height0weight25 extends BABYLON.Mesh {
+        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : height0weight25);
     }
 
-    class cloth1weight47height155 extends BABYLON.Mesh {
-        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : cloth1weight47height155);
+    class height0weight0 extends BABYLON.Mesh {
+        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : height0weight0);
     }
 
-    class cloth1weight47height138 extends BABYLON.Mesh {
-        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : cloth1weight47height138);
+    class height75weight0 extends BABYLON.Mesh {
+        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : height75weight0);
     }
 
-    class cloth1weight107height206 extends BABYLON.Mesh {
-        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : cloth1weight107height206);
+    class height25weight0 extends BABYLON.Mesh {
+        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : height25weight0);
     }
 
-    class cloth1weight87height206 extends BABYLON.Mesh {
-        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : cloth1weight87height206);
+    class height100weight0 extends BABYLON.Mesh {
+        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : height100weight0);
     }
 
-    class cloth1weight47height206 extends BABYLON.Mesh {
-        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : cloth1weight47height206);
+    class height50weight0 extends BABYLON.Mesh {
+        constructor(name: string, scene: BABYLON.Scene, materialsRootDir: string = "./", source? : height50weight0);
     }
-
-    export function defineCameras(scene : BABYLON.Scene, positionOffset? : BABYLON.Vector3) : void;
 
     export function freshenShadowRenderLists(scene : BABYLON.Scene) : void;
 }
