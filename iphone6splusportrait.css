@@ -2,7 +2,7 @@
 
 
 #tryon_window{
-    visibility: hidden;
+    display: none;
     background-color: black;
     position: fixed;  
     overflow: hidden; 
