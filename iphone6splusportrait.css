@@ -1,20 +1,6 @@
 @charset "UTF-8";
 
 
-#tryon_window{
-    display: none;
-    position: fixed;  
-    overflow: hidden; 
-    z-index: 999999; 
-    right: 0px; 
-    bottom: 0px;
-    width: 462px; 
-    height: 656px;  
-   
-     
-}
-
-
 #tryon {
             transition-duration: 0.4s;
             background-color: white;
@@ -24,7 +10,7 @@
             height: 40px;
             width: 140px;
             position: absolute;
-            top: 3%;
+            top: 4%;
             left: 5%;
             font-size: 20px;
             transition-duration: 0.1s;
@@ -38,4 +24,16 @@
             height: 100px;
 }
 
+#tryon_window{
+    border: 1px solid 	#DDDDDD;
+    border-radius: 2px;       
+    display: none;
+    width: 317px; 
+    height: 548px;  
+    position: fixed;  
+    overflow: hidden; 
+    z-index: 999999; 
+    right: 0px; 
+    bottom: 0px;
+}
 
