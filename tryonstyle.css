@@ -2,8 +2,8 @@
 
 #renderCanvas {
              visibility:inherit;
-             height: 640px;
-             width: 360px;
+             max-height: 640px;
+             max-width: 360px;
              position: absolute;
              margin: 0px 0 0 86px;
              Top: 1.5%;
@@ -17,8 +17,8 @@
     transition-duration: 0.4s;
     background-color: white;
     color: black;
-    height: 80px;
-    width: 80px;
+    max-height: 80px;
+    max-width: 80px;
     border-radius: 40px;
     border: 3px solid #4CAF50; 
     margin: 4px 0 0 5px;
@@ -32,8 +32,8 @@
 }
 
 #btn-bar {
-    width: 80px;
-    height: 640px;
+    max-width: 80px;
+    max-height: 640px;
 }
 #main {
     border: 2px solid white; 
@@ -42,8 +42,8 @@
 #body {
      visibility: hidden;
      text-align: center;
-     height: 640px;
-     width: 360px;
+     max-height: 640px;
+     max-width: 360px;
      position: absolute;
      margin: -650px 0 0 110px;
      
