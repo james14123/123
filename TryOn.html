@@ -1,4 +1,4 @@
-<html>
+<html >
 <head>
   
     <title>Demo</title>
@@ -25,23 +25,25 @@
         
     </style>
 </head>
-   
-
-<body>
-<div id="main">    
+<div id="top-bar">
+<font face="Century Gothic"> Try-On
+    </font>
+    </div>
+<body style="height: 530px;
+             width: 300px;
+             border: 1px solid 	#DDDDDD;
+             border-radius: 2px;"> 
 <div id="btn-bar">
-<button class="btn" onclick="bodyadjust()">Body</button>
+<button class="btn" onclick="bodyadjust()"><img src="body.png" style="width:100%;height:100%;"></button>
     
-<button class="btn">2</button>
+<button class="btn"></button>
 </div>
 <canvas id="renderCanvas"></canvas>
     
     
 <div id="body" >
 <font face="微軟正黑體">     
-    <br/>
-    <br/>
-<label id="label1">Height</label><br/>
+   <label id="label1">Height</label><br/>
 <input id="slide1" type="range" min="0" max="100" step="25"  value="0"
        onchange="updateslidervertexdeformation(this.value/100,slide2.value/100,slide3.value/100,slide4.value/100,slide5.value/100,slide6.value/100,slide7.value/100),clothsizeupdate()" ><br/>
 <label id="label2">Weight</label><br/>
@@ -71,14 +73,14 @@
     
 
 <script>
-document.getElementById("body").style.visibility = "hidden";
+document.getElementById("body").style.display = "none";
 function bodyadjust(){
            
-    if(document.getElementById("body").style.visibility == "hidden"){
+    if(document.getElementById("body").style.display == "block"){
 
-        document.getElementById("body").style.visibility = "visible";
+        document.getElementById("body").style.display = "none";
     }else{
-        document.getElementById("body").style.visibility = "hidden";
+        document.getElementById("body").style.display = "block";
     }
     
 }
