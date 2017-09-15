@@ -38,16 +38,17 @@
         
     </div>
     
-        
+    <iframe src="/login/login.html" id="login_window"></iframe>
+    
     <iframe src="TryOn.html" id="tryon_window"></iframe>
     
     
 <script>
     function popup() {
-        if(document.getElementById("tryon_window").style.display == "block"){
-            document.getElementById("tryon_window").style.display = "none";
+        if(document.getElementById("login_window").style.display == "block"){
+            document.getElementById("login_window").style.display = "none";
         }else{
-            document.getElementById("tryon_window").style.display = "block";
+            document.getElementById("login_window").style.display = "block";
         }
     }
   

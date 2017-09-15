@@ -46,14 +46,12 @@
     height: 30px;
     position: fixed;
     overflow: hidden;
-    text-align: center;
-    line-height:30px;
     border-bottom: 1px solid #DDDDDD; 
     margin: 0px 0 0 0px;
 }
 
 #body {
-     display: block;
+     display: none;
      text-align: center;
      height: 450px;
      width: 300px;
@@ -65,6 +63,17 @@
      
 }
 
+#backbtn {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin: 5px 0 0 6px;
+}
+
+#title {
+    position: absolute;
+    margin: 0px 0 0 125px;
+}
 
 input[type="range"] {
 	-webkit-appearance: none;
