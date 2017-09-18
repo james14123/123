@@ -12,6 +12,8 @@
     
     <script src="models/md.js"></script>
     <script src="models/mdcloth/TOB_mdcloth.js"></script>
+    
+    <script src="models/mdcloth/TOB_mdcloth1.js"></script>
     <script src="ts.js"></script>
     <script src="TS_bodylab.js"></script>
     <script src="TOB_BJSHQ.js"></script>
@@ -36,8 +38,9 @@
              border-radius: 2px;"> 
 <div id="btn-bar">
 <button class="btn" onclick="bodyadjust()"><img src="body.png" style="width:100%;height:100%;"></button>
-    
-<button class="btn"></button>
+
+<button class="btn" onclick="change()">1</button>
+<button class="btn" onclick="change1()">2</button>
 </div>
 <canvas id="renderCanvas"></canvas>
     
@@ -194,7 +197,6 @@ function bodyadjust(){
         var delay_cnt = 0;
         
         
-        
         clothsizeupdate();
         
      
@@ -278,7 +280,7 @@ function bodyadjust(){
     
         
         var shapekeyslide = new QI.VertexDeformation("ENTIRE_MESH","BASIS",["bodyShape_skin_Shape.Height","bodyShape_skin_Shape.Weight","bodyShape_skin_Shape.Waist","bodyShape_skin_Shape.Upperchest","bodyShape_skin_Shape.Shoulder","bodyShape_skin_Shape.Hip","bodyShape_skin_Shape.Breast"],[slideamount,slideamount2,slideamount3,slideamount4,slideamount5,slideamount6,slideamount7],1);
-        //CLO3Dmesh12.queueSingleEvent(test1);
+        
         mdbody.queueSingleEvent(shapekeyslide);
           
         }
@@ -296,8 +298,8 @@ function bodyadjust(){
                  }
              }
             
-            
-            var cloth_mesh = new TOB_mdcloth.MeshFactory(scene); // materialsRootDir optional
+                       
+            var cloth_mesh = new TOB_mdcloth.MeshFactory(scene); 
             var weightsilder = document.getElementById("slide2").value;
             var heightsilder = (document.getElementById("slide1").value*-1+100);
             
@@ -313,7 +315,54 @@ function bodyadjust(){
             
             
     }
-   
+      function clothsizeupdate1() {
+            
+             for (i = 0; i<=100; i=i+25){
+                 for (j = 0; j<=100; j=j+25){
+                     if (scene.getMeshByName("height" + i + "weight" + j )){
+                         
+                 scene.getMeshByName("height" + i + "weight" + j).dispose();
+                 console.log("dispose : height" + i + "weight" + j);
+                     }
+              
+                 }
+             }
+            
+            
+            var cloth_mesh = new TOB_mdcloth1.MeshFactory(scene); 
+            var weightsilder = document.getElementById("slide2").value;
+            var heightsilder = (document.getElementById("slide1").value*-1+100);
+            
+            var mesh1 = cloth_mesh.instance("height" + heightsilder + "weight" + weightsilder ); // cloneSkeleton optional
+            mesh1.material= bumpMaterial;     
+        
+            
+	       
+	    
+            mesh1.animations.push(anim);
+	        scene.beginAnimation(mesh1, 60, 0, true, 1);
+            
+            
+            
+    }
+     function change(){
+      document.getElementById("slide1").onchange = function () { updateslidervertexdeformation(this.value/100,slide2.value/100,slide3.value/100,slide4.value/100,slide5.value/100,slide6.value/100,slide7.value/100);clothsizeupdate(); }; 
+      document.getElementById("slide2").onchange = function () {
+      updateslidervertexdeformation(slide1.value/100,this.value/100,slide3.value/100,slide4.value/100,slide5.value/100,slide6.value/100,slide7.value/100);clothsizeupdate(); };
+       clothsizeupdate();
+       
+   }
+ 
+    
+   function change1(){
+      document.getElementById("slide1").onchange = function () { updateslidervertexdeformation(this.value/100,slide2.value/100,slide3.value/100,slide4.value/100,slide5.value/100,slide6.value/100,slide7.value/100);clothsizeupdate1(); }; 
+      document.getElementById("slide2").onchange = function () {
+      updateslidervertexdeformation(slide1.value/100,this.value/100,slide3.value/100,slide4.value/100,slide5.value/100,slide6.value/100,slide7.value/100);clothsizeupdate1(); };
+       clothsizeupdate1();
+       
+   }
+ 
+ 
 
 </script>
 </body>
