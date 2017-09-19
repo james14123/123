@@ -7,10 +7,10 @@
     <script src="QueuedInterpolation.1.1.min.js"></script>
     <script src="hand.js"></script>
     
-    <script src="TOB_body.js"></script>
-    <script src="TOB_cloth1.js"></script>
     
     <script src="models/md.js"></script>
+    
+    <script src="models/md_hair.js"></script>
     <script src="models/mdcloth/TOB_mdcloth.js"></script>
     
     <script src="models/mdcloth/TOB_mdcloth1.js"></script>
@@ -36,12 +36,20 @@
              width: 300px;
              border: 1px solid 	#DDDDDD;
              border-radius: 2px;"> 
+    
+<button class="btn-hair" id="hair1" onclick="changehair1()">1</button>
+    
+<button class="btn-hair" id="hair2" onclick="changehair2()">2</button>
 <div id="btn-bar">
 <button class="btn" onclick="bodyadjust()"><img src="body.png" style="width:100%;height:100%;"></button>
 
 <button class="btn" onclick="change()">1</button>
 <button class="btn" onclick="change1()">2</button>
+
 </div>
+    
+    
+
 <canvas id="renderCanvas"></canvas>
     
     
@@ -49,7 +57,7 @@
 <font face="微軟正黑體">     
    <label id="label1">Height</label><br/>
 <input id="slide1" type="range" min="0" max="100" step="25"  value="0"
-       onchange="updateslidervertexdeformation(this.value/100,slide2.value/100,slide3.value/100,slide4.value/100,slide5.value/100,slide6.value/100,slide7.value/100),clothsizeupdate()" ><br/>
+       onchange="updateslidervertexdeformation(this.value/100,slide2.value/100,slide3.value/100,slide4.value/100,slide5.value/100,slide6.value/100,slide7.value/100),clothsizeupdate(),updatesliderhair(this.value/100)" ><br/>
 <label id="label2">Weight</label><br/>
 <input id="slide2" type="range" min="0" max="100" step="25"  value="0"
        onchange="updateslidervertexdeformation(slide1.value/100,this.value/100,slide3.value/100,slide4.value/100,slide5.value/100,slide6.value/100,slide7.value/100),clothsizeupdate()" ><br/>
@@ -93,6 +101,8 @@ function bodyadjust(){
 <script>
     var scene;
     var human;
+    var hairmesh;
+    var hairmesh1;
 
 //    var left = document.getElementById("left");
 //    left.selectedIndex = 0;
@@ -124,11 +134,11 @@ function bodyadjust(){
         scene.autoClear = false; // keep bg white
 
         // Creates, angles, distances and targets the camera
-	    var camera = new BABYLON.ArcRotateCamera("Camera", 0, 0, 10, new BABYLON.Vector3(0 , 105, 0), scene);
+	    var camera = new BABYLON.ArcRotateCamera("Camera", 0, 0, 10, new BABYLON.Vector3(0 , 115, 0), scene);
         
         // This positions the camera
         scene.activeCamera = camera;
-        camera.setPosition(new BABYLON.Vector3(0 , 105, -300.0));
+        camera.setPosition(new BABYLON.Vector3(0 , 130, -320.0));
         // This attaches the camera to the canvas
         camera.attachControl(canvas, true);
         
@@ -169,7 +179,9 @@ function bodyadjust(){
         
         var cloth = new md.MeshFactory(scene); // materialsRootDir optional
         var mdbody = cloth.instance("bodyShape_skin_Shape"); // cloneSkeleton optional
-        var floor = cloth.instance("Plane"); // cloneSkeleton optional
+        //var floor = cloth.instance("Plane"); // cloneSkeleton optional
+        
+        
         
         
         
@@ -275,15 +287,28 @@ function bodyadjust(){
     }
 
     function updateslidervertexdeformation(slideamount,slideamount2,slideamount3,slideamount4,slideamount5,slideamount6,slideamount7){
-        
-      
-    
-        
+
         var shapekeyslide = new QI.VertexDeformation("ENTIRE_MESH","BASIS",["bodyShape_skin_Shape.Height","bodyShape_skin_Shape.Weight","bodyShape_skin_Shape.Waist","bodyShape_skin_Shape.Upperchest","bodyShape_skin_Shape.Shoulder","bodyShape_skin_Shape.Hip","bodyShape_skin_Shape.Breast"],[slideamount,slideamount2,slideamount3,slideamount4,slideamount5,slideamount6,slideamount7],1);
-        
         mdbody.queueSingleEvent(shapekeyslide);
-          
+        
+       
         }
+    function updatesliderhair(slideamount){
+       
+        if (scene.getMeshByName("hair_Shape1")){
+            var hair1shapekeyslide = new QI.VertexDeformation("ENTIRE_MESH","BASIS",["hair1height"],[slideamount],1);
+            hairmesh.queueSingleEvent(hair1shapekeyslide);
+        }
+        if (scene.getMeshByName("hair_Shape2")){
+            var hair2shapekeyslide = new QI.VertexDeformation("ENTIRE_MESH","BASIS",["hair2height"],[slideamount],1);
+            hairmesh1.queueSingleEvent(hair2shapekeyslide);
+        
+        }
+       
+        
+        
+        }
+        
     
     function clothsizeupdate() {
             
@@ -360,6 +385,33 @@ function bodyadjust(){
       updateslidervertexdeformation(slide1.value/100,this.value/100,slide3.value/100,slide4.value/100,slide5.value/100,slide6.value/100,slide7.value/100);clothsizeupdate1(); };
        clothsizeupdate1();
        
+   }
+   
+    function changehair1() {
+        if (scene.getMeshByName("hair_Shape2")){           
+            scene.getMeshByName("hair_Shape2").dispose();
+           
+        }
+        if (!scene.getMeshByName("hair_Shape1")){
+            var hair = new md_hair.MeshFactory(scene); // materialsRootDir optional
+            hairmesh = hair.instance("hair_Shape1");
+            updatesliderhair(document.getElementById("slide1").value/100);
+            
+            
+        }
+        
+   }
+    function changehair2() {
+        if (scene.getMeshByName("hair_Shape1")){
+            scene.getMeshByName("hair_Shape1").dispose();
+        }
+        if (!scene.getMeshByName("hair_Shape2")){
+            var hair = new md_hair.MeshFactory(scene); // materialsRootDir optional
+            hairmesh1 = hair.instance("hair_Shape2");
+            updatesliderhair(document.getElementById("slide1").value/100);
+        }
+        
+        
    }
  
  
