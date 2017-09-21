@@ -1,3 +1,4 @@
+
 @charset "UTF-8";
 
 
@@ -28,6 +29,26 @@
     border: 1px solid 	#DDDDDD;
     border-radius: 2px;       
     display: none;
+    width: 287px; 
+    height: 495px;  
+    position: fixed;  
+    overflow: hidden; 
+    z-index: 999999; 
+    right: 0px; 
+    bottom: 0px;
+    
+    
+    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1s; /* Firefox < 16 */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera < 12.1 */
+            animation: fadein 1s;
+}
+
+#login_window{
+    border: 1px solid 	#DDDDDD;
+    border-radius: 2px;       
+    display: none;
     width: 317px; 
     height: 548px;  
     position: fixed;  
@@ -35,6 +56,7 @@
     z-index: 999999; 
     right: 0px; 
     bottom: 0px;
+    
     
     -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 1s; /* Firefox < 16 */
