@@ -26,6 +26,20 @@
     
 }
 .btn-hair {
+    -webkit-appearance: none;
+    background-color: white;
+    border: none;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    
+    z-index: 9999;
+}
+.btn-hair:hover {
+    -webkit-appearance: none;
+    
+    background-color: #DDDDDD;
+    border: none;
     height: 40px;
     width: 40px;
     position: absolute;
