@@ -1,14 +1,14 @@
 @charset "UTF-8";
 
 body {
-    height: 250px;
-    width: 115px;
+    height: 285px;
+    width: 150px;
     border: 1px solid 	#DDDDDD;
     border-radius: 2px;
     background-image:url(background.png);
     overflow: hidden;
     
-    background-position: 18px 18px;
+    background-position: 9px 9px;
     background-repeat: no-repeat;
     background-origin: content-box;
     
@@ -52,7 +52,7 @@ body {
     margin:15px 0 0 62.5px;
     border-radius: 100px;
     border: 1px solid grey;
-    font-size: 10px;
+    font-size: 18px;
     background-color: white;
 }
 
