@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 body {
-    height: 303px;
-    width: 167px;
+    height: 285px;
+    width: 150px;
     border: 1px solid 	#DDDDDD;
     border-radius: 2px;
     background-image:url(background.png);
